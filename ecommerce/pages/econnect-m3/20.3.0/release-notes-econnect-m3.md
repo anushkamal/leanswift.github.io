@@ -27,7 +27,7 @@
 | RabbitMQ | 3.8.3 |
 | Infor M3 (MT) | 16.1 |
 
-# **Standard Features**
+## **Standard Features**
 
 All the standard functionalities of core eConnect are supported in v20.3.0, which includes the following:
 
@@ -45,7 +45,7 @@ All the standard functionalities of core eConnect are supported in v20.3.0, whic
 - Order History
 - Initial Load
 
-# **New Features/Enhancements**
+## **New Features/Enhancements**
 
 ### **LeanSwift AMQP Connection**
 
@@ -70,7 +70,7 @@ Provided option to choose which field can be Item Price - MMSAPR / ODSAPR
 
 Note : The base price that updates for an item based on odsapr setting will work on website scope by picking the price list and currency based on website scope but customer specific price will update based on latest price bod 
 
-# **Highlights**
+## **Highlights**
 
 - _maxReturnedRecords_ option in the API request is now configurable
 
@@ -78,7 +78,7 @@ Note : The base price that updates for an item based on odsapr setting will work
 
 - Usage of mixins in javascript instead of _map_
 
-# **Bug Fixes**
+## **Bug Fixes**
 
 - Customer Default Address from the CustomerPartyMaster BOD are now added to Magento
 
@@ -106,13 +106,13 @@ Note : The base price that updates for an item based on odsapr setting will work
 
 - Error handling in checkout page when shipping methods are enabled.
 
-# **Note** 
+## **Note** 
 
  - This version is supported only in MT.
  
  - LSItemMasterDetails , LSSalesOrderDetails and LSCustomerDetails are no more supported from 2.3.0 onwards.
 
-# **Point of Contact**
+## **Point of Contact**
 
 - [prabhu.mano@leanswift.com](mailto:prabhu.mano@leanswift.com)
 - [niranjan.b@leanswift.com](mailto:prabhu.mano@leanswift.com)
