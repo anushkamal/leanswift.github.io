@@ -1,31 +1,33 @@
 # **eConnect 20.1.0**
 ## **Add-ons**
 
-## **Community Edition**
+## **Enterprise Edition**
 
 
-## **Magento Open Source**
+## **Magento Commerce**
+
 
 
 
 # Table of Contents
 
 - [**Environment Details**](#environment-details)
-- [**Standard Features**](#standard-features)
+- [**Standard Features**](#environment-details)
 - [**Add-ons**](#add-ons)
 - [**Highlights**](#highlights)
 - [**eConnect-base v2.0.0**](#econnect-base-v2.0.0)
-- [**IDM**](#idm)
-- [**JIRA References**](#jira-references)
-- [**GitHub Links**](#github-links)
-- [**Documentation**](#documentation)
-- [**Point of Contact**](#point-of-contact)
+- [**IDM**](#idm)	
+- [**JIRA References**](#jira-references)	
+- [**GitHub Links**](#github-links)	
+- [**Documentation**](#documentation)	
+- [**Point of Contact**](#documentation)
+
 
 # **Environment Details**
 
 | _ **Software Name** _ | _ **Version** _ |
 | --- | --- |
-| Magento Open Source | 2.3.4 |
+| Magento Commerce | 2.3.4 |
 | PHP version | 7.2.2x |
 | RabbitMQ | 3.8.3 |
 | Infor M3 (ST) | 13.4 |
@@ -52,7 +54,7 @@ All the standard functionalities of core eConnect are supported in v20.1.0, whic
 
 # **Add-ons**
 
-The following add-ons are also available for eConnect for M3 v20.1.0 Community Edition
+The following add-ons are also available for eConnect for M3 v20.1.0 Enterprise Edition
 - Sales Representative v3.1.0
 - Material Plan v4.0.0
 - Multi-warehouse v4.0.0
@@ -85,4 +87,3 @@ IDM has a new section called Mapping.
 Attribute Key refers to M3_AttributeKey Name of IDM Document Type and the Custom key is the one we name it for our reference which we will use in code to retrieve M3_AttributeKey mapped here.
 M3_AttributeKeys chosen for Upload Document type may vary for the Single Tenant and Multi-Tenant environment. Since we have to use those M3_Attribute keys in our code for Upload functionality, we now map it to a common custom key.
 So, instead of changing M3_AttributeKeys in code for ST & MT, updating the mapping section in the backend is enough.
-
